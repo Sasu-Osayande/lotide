@@ -9,10 +9,10 @@ const eqArrays = function(firstArray, secondArray) {
 };
 
 const assertArraysEqual = function(firstArray, secondArray) {
-  if (eqArrays(firstArray, secondArray)) {
-    console.log(`✅✅✅ Assertion passed: ${firstArray} = ${secondArray}`);
+  if (eqArrays(firstArray, secondArray) === false) {
+    console.log(`❌❌❌ Assertion failed: ${firstArray} != ${secondArray}`);
   } else {
-    console.log(`❌❌❌ Assertion failed: ${firstArray} != ${secondArray}`)
+    console.log(`✅✅✅ Assertion passed: ${firstArray} = ${secondArray}`);
   }
 };
 
