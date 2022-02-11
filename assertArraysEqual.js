@@ -18,4 +18,4 @@ const assertArraysEqual = function(firstArray, secondArray) {
   }
 };
 
-assertArraysEqual();
+console.log(assertArraysEqual([1, 2, 3], [1, 2, 3]));

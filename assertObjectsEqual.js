@@ -26,3 +26,5 @@ const assertObjectsEqual = function(actual, expected) {
   }
   console.log(`✅✅✅ Assertion passed: ${actual} = ${expected}`);
 };
+
+console.log(assertObjectsEqual({ a: 1, b: 2, c: 3}, { a: 1, b: 2, c: 3}));
