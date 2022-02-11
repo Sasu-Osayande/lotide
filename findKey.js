@@ -38,3 +38,15 @@ const data2 = findKey({
 
 // console.log(data2);
 assertEqual(data2, "pears");
+
+const data3 = findKey({
+  tomatoes: 2,
+  mangoes: 5,
+  oranges: 2,
+  pears: 4,
+  mushrooms: 10,
+  grapes: 2
+}, x => x === 7);
+
+// console.log(data2);
+assertEqual(data3, undefined);
