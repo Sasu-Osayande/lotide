@@ -8,6 +8,7 @@ const assertArraysEqual = function(firstArray, secondArray) {
   }
 };
 
-console.log(assertArraysEqual([1, 2, 3], [1, 2, 3]));
+// console.log(assertArraysEqual([1, 2, 3], [1, 2, 3]));
+// console.log(assertArraysEqual([1, 2, 3], [4, 5, 6]));
 
-mmodule.exports = assertArraysEqual;
+module.exports = assertArraysEqual;
