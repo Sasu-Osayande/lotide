@@ -43,3 +43,5 @@ without([1, 2, 3], [1]);
 without(["1", "2", "3"], ["1", 2, 3]);
 without([2, 4, 6], [6, 2, 4]);
 without([1, 2, 3], [4, 5, 6]);
+
+module.exports = without;

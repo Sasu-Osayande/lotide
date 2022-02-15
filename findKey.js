@@ -50,3 +50,5 @@ const data3 = findKey({
 
 // console.log(data2);
 assertEqual(data3, undefined);
+
+module.exports = findKey;

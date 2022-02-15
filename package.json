@@ -1,0 +1,26 @@
+{
+  "name": "@sasu.osayande/lotide",
+  "version": "1.0.0",
+  "description": "A mini clone of the Lodash library",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasu-Osayande/lotide-2.git"
+  },
+  "author": "Sasu Osayande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sasu-Osayande/lotide-2/issues"
+  },
+  "homepage": "https://github.com/Sasu-Osayande/lotide-2#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  }
+}

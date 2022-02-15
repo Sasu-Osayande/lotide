@@ -35,3 +35,5 @@ const dishesInCuisine = {
 
 assertEqual(findKeyByValue(dishesInCuisine, "pad thai"), "thai");
 assertEqual(findKeyByValue(dishesInCuisine, "tamales"), undefined);
+
+module.exports = findKeyByValue;
